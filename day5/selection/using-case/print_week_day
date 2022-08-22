@@ -1,0 +1,27 @@
+read -p "Enter any number for day" day
+case $day in
+    1)
+        echo "SUNDAY" 
+        ;; 
+    2) 
+        echo "MONDAY"
+        ;;
+    3)
+        echo "TUESDAY"
+        ;;
+    4)
+        echo "WEDNESDAY"
+        ;;
+    5)
+        echo "THURSDAY"
+        ;;
+    6)
+        echo "FRIDAY"
+        ;;
+    7)
+        echo "SATURDAY"
+        ;;
+    *)
+        echo "Please enter value from 1-7 only!"
+        ;;
+esac
